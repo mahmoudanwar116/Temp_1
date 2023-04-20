@@ -1,0 +1,124 @@
+/* Landing Responsive */
+@media screen and (max-width: 767px){
+  .landing .intro-txt h1{
+    font-size: 3rem;
+    width: max-content;
+  }
+  
+}
+
+/* Responsive Of Intro_Headers */
+@media screen and (max-width:767px){
+  .intro-headers h1{
+    font-size: 50px;
+  }
+  .intro-headers p{
+    font-size: 0.95rem;
+    margin: -19px 0 20px 0;
+  }
+}
+
+/*Responsiv Of Services*/
+@media screen and (max-width: 767px){
+  .services{
+    padding: 20px 20px 40px;
+  }
+  .services .services-cont{
+    margin-top: 30px;
+  }
+  .services .services-cont .service{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .services .services-cont .service h2{
+    margin: 10px;
+    text-align: center;
+  }
+  .services .services-cont .servicet p{
+    text-align: center
+  }
+  .services .services-cont .image-cont img{
+    width: 70%;
+  }
+  .services .services-cont .image-cont:before{
+    right: 20px;
+  }
+}
+
+/* Responsive Of About section */
+@media screen and (max-width:1023px){
+  
+  .about .about-cont{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+  .about .about-cont .txt {
+    width: calc(100% - 120px);
+    margin-top: 50px
+  }
+
+}
+
+/* Responsive Of Portfalio */
+@media screen and (max-width: 767px){
+  .portfalio{
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .about{
+    padding: 30px 10px 40px
+  }
+  .about .about-cont .txt {
+    width: calc(100% - 10px);
+    margin-top: 50px;
+    text-align: center;
+  }
+  .about .about-cont .txt p{
+    text-align: center;
+  }
+  .about .about-cont .img-cont:before{
+  content: "";
+  position: absolute;
+  background: #CBCBCB;
+  width: 100px;
+  height: calc(100% + 60px);
+  top: -30px;
+  left: -20px ;
+  z-index: -1
+}
+.about .about-cont .img-cont:after{
+  content: "";
+  position: absolute;
+  right: -45px;
+  top: -30px;
+  width: 30px;
+  height: 200px;
+  border-left: 30px solid #10cab7;
+  border-bottom: 30px solid #10cab7;
+  z-index: -1
+}
+}
+
+/* Responsiv Of Contact
+ */@media screen and (max-width:767px){
+  .contact{
+    padding: 30px;
+  }
+  .contact contact-cont {
+    margin-top: 10px
+  }
+  .contact .contact-cont .label{
+    font-size: 25px;
+  }
+  
+}
